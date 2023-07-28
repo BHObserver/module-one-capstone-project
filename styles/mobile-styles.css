@@ -1,3 +1,11 @@
 @media screen and (max-width > 767px) {
-    
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .log {
+        display: block;
+        list-style-type: none;
+    }
 }
