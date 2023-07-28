@@ -1,11 +1,13 @@
-@media screen and (max-width > 767px) {
-    .nav-container {
-        display: flex;
-        flex-direction: column;
-    }
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
 
-    .log {
-        display: block;
-        list-style-type: none;
-    }
+.nav-container ul {
+    display: flex;
+}
+
+.log {
+    display: block;
+    list-style-type: none;
 }
