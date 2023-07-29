@@ -30,6 +30,21 @@ body {
     padding: 20px;
 }
 
-.headline {
-    
+.home {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+}
+
+.headline-container {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(../images/textBg.jpg);
+}
+
+.home-headline {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 42px;
 }
