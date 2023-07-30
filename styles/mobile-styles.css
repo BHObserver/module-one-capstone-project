@@ -1,7 +1,7 @@
 body {
     background: url(../images/mobile-bg.png);
     background-repeat: no-repeat;
-    background-size: 100% 40%;
+    background-size: 100% 42%;
     margin: 0;
 }
 
@@ -111,7 +111,7 @@ body {
 
 .event-container {
     display: grid;
-    grid-template-columns: 350px;
+    grid-template-columns: repeat(1, minmax(350px, auto));
     grid-template-rows: repeat(5, 120px);
     row-gap: 10px;
 }
@@ -128,7 +128,7 @@ body {
 
 .event-details {
     display: grid;
-    grid-template-columns: repeat(3, 95px);
+    grid-template-columns: repeat(3, minmax(95px, auto));
     justify-items: center;
     align-items: center;
     text-align: center;
