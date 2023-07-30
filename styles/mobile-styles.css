@@ -2,6 +2,7 @@ body {
     background: url(../images/mobile-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 40%;
+    margin: 0;
 }
 
 .nav-container {
