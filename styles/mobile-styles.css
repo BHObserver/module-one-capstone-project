@@ -1,8 +1,7 @@
 body {
     background: url(../images/mobile-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 20px;
+    background-size: 105% 100%;
 }
 
 .nav-container {
@@ -28,7 +27,7 @@ body {
 .nav-icon {
     width: 33px;
     height: 29px;
-    padding-left: 10px;
+    padding: 10px 0 0 20px;
 }
 
 .home {
@@ -46,7 +45,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url(../images/textBg.jpg);
-    width: 320px;
+    width: 300px;
 }
 
 .home-headline {
@@ -55,19 +54,42 @@ body {
     font-size: 40px;
     font-weight: 900;
     line-height: 44px;
-    margin: 0;
+    margin: 0 0 10px 5px;
 }
 
 .details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Lato', sans-serif;
     color: #272A31;
     border: 3px solid white;
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 17px;
+    margin-top: 20px;
+}
+
+.details p {
+    margin: 0;
+}
+
+.date {
+    color: #272a31c8;
+    font-weight: 900;
+    font-size: 22px;
+    margin: 15px 0 10px 10px;
+    letter-spacing: 1px;
+}
+
+.date p {
+    margin: 0;
+}
+
+.place {
+    margin-left: 10px;
+    color: #272a31af;
+    height: 70px;
+}
+
+.place p {
+    margin: 0;
 }
