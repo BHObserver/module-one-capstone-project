@@ -1,7 +1,7 @@
 body {
     background: url(../images/mobile-bg.png);
     background-repeat: no-repeat;
-    background-size: 105% 100%;
+    background-size: 100% 40%;
 }
 
 .nav-container {
@@ -122,5 +122,5 @@ body {
     width: 98%;
     padding: 18px 15px;
     gap: 20px;
-    height: 120px;
+    height: 100px;
 }
