@@ -68,6 +68,7 @@ body {
     font-size: 11px;
     line-height: 17px;
     margin-top: 20px;
+    width: 320px;
 }
 
 .details p {
@@ -104,7 +105,7 @@ body {
     color: #fff;
     padding: 30px 10px;
     background-image: url(../images/cross.svg);
-    background-size: 63px;
+    background-size: 30px;
     background-color: #272A31;
 }
 
