@@ -103,7 +103,7 @@ body {
     align-items: center;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    padding: 30px 10px;
+    padding: 40px 10px;
     background-image: url(../images/cross.svg);
     background-size: 40px;
     background-color: #272A31;
@@ -112,6 +112,7 @@ body {
 .main-program h2 {
     font-size: 20px;
     font-weight: lighter;
+    margin-bottom: 20px;
 }
 
 .event-container {
