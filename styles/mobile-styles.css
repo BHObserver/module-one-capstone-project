@@ -1,7 +1,7 @@
 body {
     background: url(../images/mobile-bg.png);
     background-repeat: no-repeat;
-    background-size: 100% 42%;
+    background-size: 100% 44%;
     margin: 0;
 }
 
@@ -103,7 +103,7 @@ body {
     align-items: center;
     font-family: 'Lato', sans-serif;
     color: #fff;
-    padding: 40px 10px;
+    padding: 0 10px;
     background-image: url(../images/cross.svg);
     background-size: 40px;
     background-color: #272A31;
@@ -114,6 +114,8 @@ body {
     font-weight: lighter;
     margin-bottom: 20px;
 }
+
+
 
 .event-container {
     display: grid;
