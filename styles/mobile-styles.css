@@ -238,9 +238,10 @@ body {
 }
 
 .artist-img {
+  align-self: flex-start;
+  box-sizing: border-box;
   padding-left: 10px;
   padding-top: 15px;
-  align-self: flex-start;
   width: 91%;
   max-width: 190px;
 }
