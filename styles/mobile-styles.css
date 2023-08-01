@@ -189,15 +189,15 @@ body {
 }
 
 .feature h2 {
-    margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .underline {
-    width: 10%;
-    height: 3px;
-    background: #ec5242;
-    border: none;
-    margin: 12px 0;
+  width: 10%;
+  height: 3px;
+  background: #ec5242;
+  border: none;
+  margin: 12px 0;
 }
 
 .artist-container {
@@ -268,28 +268,37 @@ body {
 }
 
 .more-btn-container {
-    width: 90%;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-bottom: 20px;
 }
 
 .moreBtn {
-    font-size: 18px;
-    font-weight: 700;
-    width: 100%;
-    padding: 12px 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
 }
 
 .btnIcon {
-    color: #ec5242;
-    padding-top: 5px;
-    margin-left: 5px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(180deg);
-    font-size: 27px;
+  color: #ec5242;
+  padding-top: 5px;
+  margin-left: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(180deg);
+  font-size: 27px;
+}
+
+.dash {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 10%;
 }
 
 * {
