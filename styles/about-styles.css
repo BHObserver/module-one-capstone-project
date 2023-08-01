@@ -1,0 +1,37 @@
+@import url(./home-styles.css);
+
+body {
+    background: url(../images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+  }
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ec5242;
+    margin: 0;
+}
+
+.home h3 {
+    font-weight: lighter;
+}
+
+.headline-container {
+    -webkit-text-fill-color: transparent;
+    background-image: url(../images/textBg.jpg);
+    width: 100%;
+}
+
+.home-headline {
+    text-align: center;
+    font-size: 28px;
+}
+
+.details {
+    text-align: center;
+    background: #F5F5F5;
+}
