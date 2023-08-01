@@ -1,7 +1,7 @@
 body {
     background: url(../images/mobile-bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 44%;
+    background-size: contain;
     margin: 0;
 }
 
