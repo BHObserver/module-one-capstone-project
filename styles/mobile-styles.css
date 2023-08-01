@@ -224,7 +224,7 @@ body {
   background-position-y: top;
   background-position-x: left;
   background-repeat: no-repeat;
-  background-size: 15%;
+  background-size: 20%;
   margin-bottom: 10px;
 }
 
@@ -241,7 +241,7 @@ body {
   padding-left: 10px;
   padding-top: 15px;
   align-self: flex-start;
-  width: 100%;
+  width: 91%;
   max-width: 190px;
 }
 
@@ -249,7 +249,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 20px;
+  margin-left: 15px;
   width: 65%;
 }
 
