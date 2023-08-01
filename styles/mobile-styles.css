@@ -101,7 +101,7 @@ body {
   color: #fff;
   padding: 0 10px;
   background-image: url(../images/cross.svg);
-  background-size: 40px;
+  background-size: 30px;
   background-color: #272a31;
 }
 
@@ -173,7 +173,7 @@ body {
   align-items: center;
   background-color: #ec5242;
   margin-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   padding: 20px 50px;
   font-size: 16.5px;
   color: #fff;
@@ -186,6 +186,18 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 14px;
+}
+
+.feature h2 {
+    margin: 10px 0 0 0;
+}
+
+.underline {
+    width: 10%;
+    height: 3px;
+    background: #ec5242;
+    border: none;
+    margin: 12px 0;
 }
 
 .artist-container {
@@ -229,15 +241,15 @@ body {
   padding-left: 10px;
   padding-top: 15px;
   align-self: flex-start;
-  width: 91px;
-  height: 91px;
+  width: 100%;
+  max-width: 190px;
 }
 
 .artist-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10px;
+  margin-left: 20px;
   width: 65%;
 }
 
@@ -249,10 +261,35 @@ body {
   font-style: italic;
 }
 
-.speaker-intro {
+.artist-intro {
   font-weight: normal;
   font-size: 12px;
   color: rgb(35, 53, 58);
+}
+
+.more-btn-container {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.moreBtn {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.btnIcon {
+    color: #ec5242;
+    padding-top: 5px;
+    margin-left: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(180deg);
+    font-size: 27px;
 }
 
 * {
