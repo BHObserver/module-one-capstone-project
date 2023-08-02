@@ -3,7 +3,7 @@
 body {
     background: url(../images/about-bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 101%;
     margin: 0;
   }
 
@@ -18,12 +18,11 @@ body {
 
 .home h3 {
     font-weight: lighter;
+    
 }
 
 .headline-container {
-    -webkit-text-fill-color: transparent;
-    background-image: url(../images/textBg.jpg);
-    width: 100%;
+    width: 90%;
 }
 
 .home-headline {
@@ -33,5 +32,140 @@ body {
 
 .details {
     text-align: center;
+    font-size: 14px;
+    line-height: 4vh;
     background: #F5F5F5;
+}
+
+.contact-txt {
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 12.4px;
+    line-height: 4vh;
+    text-align: center;
+    color: #393939c0;
+    width: 90%;
+}
+
+.email {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #5f5f5f;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 800;
+    height: 100px;
+}
+
+.email p {
+    margin: 0;
+}
+
+.event-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+.logo-title {
+    text-align: center;
+    color: #272a31;
+    font-size: 20px;
+    word-spacing: 3px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.logo-info {
+    text-align: center;
+    color: #454a56cf;
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 4vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border: 2px solid #d3d3d3a3;
+    border-radius: 5%;
+}
+
+.logo img{
+    padding: 20px;
+    width: 200px;
+    height: 240px;
+    border-radius: 10%;
+}
+
+.prev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prev-festive {
+    text-align: center;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    width: 80%;
+    line-height: 28px;
+}
+
+.prev-text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #838383;
+    width: 90%;
+}
+
+.prev-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 35px;
+}
+
+.prev-img1-container {
+
+}
+
+.prev-img2-container {
+
+}
+
+.prev-img1-overlay {
+
+}
+
+.prev-img2-overlay {
+
+}
+
+.prev-img-texts {
+
+}
+
+.prev-img-year {
+
+}
+
+.prev-img-info {
+
 }
