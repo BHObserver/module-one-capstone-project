@@ -1,16 +1,18 @@
 @import url(./home-styles.css);
 
 body {
-  background: url(../images/about-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: 101%;
+  background: none;
   margin: 0;
+  padding: 0;
 }
 
 .home {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: url(../images/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   align-items: center;
   color: #ec5242;
   margin: 0;
