@@ -110,15 +110,17 @@ body {
 .prev {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .prev-festive {
-    text-align: center;
-    margin-top: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    color: #272a31;
+    text-align: center;
+    margin-top: 30px;
     width: 80%;
     line-height: 28px;
 }
@@ -129,7 +131,7 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    color: #838383;
+    color: #272a318c;
     width: 90%;
 }
 
@@ -142,30 +144,37 @@ body {
     margin-top: 35px;
 }
 
-.prev-img1-container {
-
+.prev-img-container {
+    background-image: url(../images/wmfraga1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 180px;
 }
 
-.prev-img2-container {
-
-}
-
-.prev-img1-overlay {
-
-}
-
-.prev-img2-overlay {
-
+.prev-img-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #ec524280;
 }
 
 .prev-img-texts {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
 .prev-img-year {
-
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .prev-img-info {
-
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
