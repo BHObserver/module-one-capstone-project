@@ -69,7 +69,7 @@ body {
     justify-content: center;
     margin-top: 20px;
     padding-bottom: 60px;
-    border-bottom: 2px solid #d3d3d3;
+    border-bottom: 1.5px solid #d3d3d3;
 }
 
 .logo-title {
@@ -100,13 +100,14 @@ body {
     width: 90%;
     border: 1px solid #d3d3d3a3;
     border-radius: 5%;
+    box-shadow: 1px 1.5px 1.5px black;
 }
 
 .logo img{
     padding: 20px;
-    width: 200px;
-    height: 240px;
-    border-radius: 10%;
+    width: 125px;
+    height: 150px;
+    border-radius: 16%;
 }
 
 .prev {
@@ -131,7 +132,7 @@ body {
     text-align: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 21px;
     color: #272a318c;
     width: 90%;
@@ -141,7 +142,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 1rem;
     margin-top: 35px;
 }
@@ -219,4 +220,29 @@ body {
 .sponser-logo {
     width: 120px;
     height: 120px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    /* background: #F5F5F5; */
+    width: 100%
+}
+
+footer img {
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-details {
+    color: #5f5f5fac;
+    padding-top: 20px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-details p {
+    font-size: 12px;
 }
