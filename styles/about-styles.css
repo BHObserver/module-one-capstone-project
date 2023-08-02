@@ -95,8 +95,10 @@ body {
 .logo {
     display: flex;
     justify-content: center;
+    background: #F5F5F5;
+    margin-top: 20px;
     width: 90%;
-    border: 2px solid #d3d3d3a3;
+    border: 1px solid #d3d3d3a3;
     border-radius: 5%;
 }
 
@@ -148,8 +150,12 @@ body {
     background-image: url(../images/wmfraga1.jpg);
     background-position: center;
     background-size: cover;
-    width: 90%;
+    width: 350px;
     height: 180px;
+}
+
+.prev-photos .prev-img-container:nth-child(2) {
+    background-image: url(../images/wmf1.jpg);
 }
 
 .prev-img-overlay {
@@ -174,7 +180,43 @@ body {
 }
 
 .prev-img-info {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 16.5px;
+    font-weight: 400;
     text-align: center;
+}
+
+.prev-img-texts h2, p {
+    margin: 0;
+    padding: 4px;
+}
+
+.sponsers-sect {
+    width: 96%;
+    background-color: #272a31;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 34px;
+}
+
+.sponsers-title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #d3d3d3;
+}
+
+.sponsers-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponser-logo {
+    width: 120px;
+    height: 120px;
 }
