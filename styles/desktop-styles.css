@@ -20,6 +20,33 @@
         padding-right: 10px;
     }
 
+    .home-headline {
+        font-size: 46px;
+    }
+
+    .home-container {
+        margin-left: 150px;
+    }
+
+    .headline-container {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: url(../images/textBg.jpg);
+        width: 50%;
+    }
+
+    .details {
+        font-size: 14px;
+        width: 500px;
+        background: #F7F7F8;
+    }
+
+    .place {
+        margin-left: 10px;
+        color: #272a31af;
+        height: 100px;
+    }
+
     .event-container {
         display: grid;
         grid-template-columns: repeat(5, minmax(120px, 1fr));
@@ -56,7 +83,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 30px;
-        width: 85%;
+        width: 65%;
         flex-wrap: wrap;
     }
 
@@ -71,5 +98,9 @@
         background-size: 20%;
         margin-bottom: 10px;
         margin: 10px;
+    }
+
+    .more-btn-container {
+        display: none;
     }
 }
