@@ -1,13 +1,13 @@
 body {
-  background: url(../images/home-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: none;
   margin: 0;
 }
 
 .nav-container {
   display: flex;
   flex-direction: column;
+  background: none;
+  height: 0;
 }
 
 .nav-container ul {
@@ -33,8 +33,13 @@ body {
 
 .home {
   color: #ec5242;
-  margin-top: 50px;
-  margin-left: 10px;
+  padding-top: 80px;
+  padding-left: 10px;
+  background: url(../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-right: 10px;
 }
 
 .home h2 {
@@ -97,6 +102,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   color: #fff;
   padding: 0 10px;
   background-image: url(../images/cross.svg);
@@ -199,7 +205,7 @@ body {
   margin: 12px 0;
 }
 
-.artist-container {
+.performer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,7 +213,7 @@ body {
   margin-top: 30px;
 }
 
-.speakers-title {
+.performers-title {
   color: #272a31;
   font-style: normal;
   font-weight: 600;
@@ -215,7 +221,7 @@ body {
   line-height: 28px;
 }
 
-.artist {
+.performer {
   display: flex;
   justify-content: center;
   width: 90%;
@@ -227,7 +233,7 @@ body {
   margin-bottom: 10px;
 }
 
-.artist-photo-container {
+.performer-photo-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -236,7 +242,7 @@ body {
   height: 30%;
 }
 
-.artist-img {
+.performer-img {
   align-self: flex-start;
   box-sizing: border-box;
   padding-left: 10px;
@@ -245,7 +251,7 @@ body {
   max-width: 190px;
 }
 
-.artist-text-container {
+.performer-text-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,11 +259,11 @@ body {
   width: 65%;
 }
 
-.artist-text-container h3 {
+.performer-text-container h3 {
   margin: 0;
 }
 
-.artist-type {
+.performer-type {
   margin-top: 5px;
   font-size: 12px;
   font-weight: 700;
@@ -265,7 +271,7 @@ body {
   font-style: italic;
 }
 
-.artist-intro {
+.performer-intro {
   font-weight: normal;
   font-size: 12px;
   color: rgb(35, 53, 58);
