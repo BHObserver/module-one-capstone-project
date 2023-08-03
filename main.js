@@ -29,6 +29,15 @@ navItems.forEach((element) => {
   });
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.keyCode === 27) {
+    header.classList.remove('mobile-menu');
+    menuContainer.style.display = 'none';
+    cross.style.display = 'none';
+    navMobile.style.display = 'none';
+  }
+});
+
 /* Add JS feature to More Button */
 const moreBtn = document.querySelector('.moreBtn');
 const performer = document.querySelectorAll('.performer');
