@@ -7,32 +7,36 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel = "icon" href ="./images/logo.png" type = "image/x-icon">
     <link rel='stylesheet' type='text/css' media='screen' href='styles/about-styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/desktop-styles.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
 </head>
 <body>
-    <header class="nav-container">
-        <img src="./images/mobile_menu.png" class="nav-icon" alt="Nav-bar Hamburger">
-        <nav class="log">
-            <ul>
-                <li><a href="#">Logout</a></li>
-                <li><a href="#">Mypage</a></li>
-                <li><a href="#">Korean</a></li>
-            </ul>
-        </nav>
-        <nav class="mobile-nav">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Program</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Sponsor</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">CC campaign</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="nav-container">
+    <img src="./images/mobile_menu.png" class="nav-icon" alt="Nav-bar Hamburger">
+    <div class="log">
+        <ul>
+            <li><a href="https://facebook.com"> <img src="images/facebook.png" alt=""></a></li>
+            <li><a href="https://twitter.com"><img src="images/twitter.png" alt=""></a></li>
+            <li><a href="#">Logout</a></li>
+            <li><a href="#">Mypage</a></li>
+            <li><a href="#">English</a></li>
+        </ul>
+    </div>
+    <nav class="nav-bar">
+        <a href="index.html"><img src="images/wmflogo.jpg" alt="logo"></a>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+        <span class="campaign"><a href="#">Campaign</a></span>
+    </nav>
+</header>
     <main>
         <section class="home">
             <h3>"Hello! Sharing World"</h3>
@@ -58,7 +62,7 @@
             </div>
           </section>
           <section class="prev">
-            <h2 class="prev-festive">See the past WebSci Conferences</h2>
+            <h2 class="prev-festive">See the past World Music Festivals</h2>
             <img src="images/separetor.png" alt="underline" class="underline">
             <p class="prev-text">Take a look at the previous two World Music Festivals which took place at Chicago Cultural Center and Citywide</p>
             <div class="prev-photos">
@@ -90,18 +94,21 @@
                   <img src="./images/imw_logo.png" alt="sponser-logo" class="sponser-logo">
                   <img src="./images/roskildefestival_logo.svg" alt="sponser-logo" class="sponser-logo">
                   <img src="./images/themusiciansunion_logo.svg" alt="sponser-logo" class="sponser-logo">
-                  <!-- <img src="./images/wayoutwest_logo.svg" alt="sponser-logo" class="sponser-logo"> -->
               </div>
             </div>
           </section>
           
           <footer>
-            <img src="images/wmflogo.jpg" alt="">
-            <div class="footer-details">
-                <p>2023 World Music Festival Chicago</p>
-                <p>Some Rights Reserved.</p>
+            <div class="footer-container">
+                <div class="footer-logo-container">
+                  <a href="index.html"><img src="./images/wmflogo.jpg" alt="logo" class="footer-logo"></a>
+                </div>
+                <div class="footer-details">2023 WORLD MUSIC FESTIVAL CHICAGO.
+                  <br>
+                  Some rights deserved.
+              </div>
             </div>
-          </footer>
+        </footer>
           
     </main>
 </body>
