@@ -51,7 +51,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://bhobserver.github.io/projects/module-one-capstone-project/index.html)
+- [Live Demo Link](https://bhobserver.github.io/projects/world-music-festival/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
