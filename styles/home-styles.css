@@ -4,14 +4,11 @@ body {
 }
 
 .nav-container {
+  display: none;
   display: flex;
   flex-direction: column;
   background: none;
   height: 0;
-}
-
-.nav-container {
-  display: none;
 }
 
 .nav-container ul {
@@ -24,7 +21,6 @@ body {
   text-decoration: none;
   margin-right: 5px;
 }
-
 
 .log {
   display: none;
@@ -276,9 +272,21 @@ body {
   font-style: italic;
 }
 
-.performer-container .performer:nth-child(3), .performer:nth-child(4), .performer:nth-child(5), .performer:nth-child(6) {
+.performer-container .performer:nth-child(3) {
   display: none;
-} 
+}
+
+.performer-container .performer:nth-child(4) {
+  display: none;
+}
+
+.performer-container .performer:nth-child(5) {
+  display: none;
+}
+
+.performer-container .performer:nth-child(6) {
+  display: none;
+}
 
 .performer-intro {
   font-weight: normal;
@@ -384,18 +392,17 @@ footer {
 
 @media screen and (min-width: 767px) {
   .sponsers-sect {
-    display: block;
+    display: flex;
     width: 100%;
     background-color: #272a31;
     color: white;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
     margin-top: 34px;
   }
-  
+
   .sponsers-title {
     text-align: center;
     margin-top: 30px;
@@ -403,13 +410,13 @@ footer {
     font-weight: 600;
     color: #d3d3d3;
   }
-  
+
   .sponsers-div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  
+
   .sponser-logo {
     width: 120px;
     height: 120px;
@@ -435,12 +442,12 @@ footer {
 
   .footer-container {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
   }
 
   .footer-details {
-    color: #000000;
+    color: #000;
     font-size: 14px;
     font-weight: 600;
     width: 500px;
