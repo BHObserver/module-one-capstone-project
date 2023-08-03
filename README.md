@@ -130,6 +130,9 @@ Contributions, issues, and feature requests are welcome!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to say that, I am really greatful to the Microverse community.
+The template used in this website is created **Cindy Shin**
+ Thanks to:
+- [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
