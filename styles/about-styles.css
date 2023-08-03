@@ -105,6 +105,12 @@ p {
   line-height: 4vh;
 }
 
+footer img {
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+}
+
 .logo {
   display: flex;
   justify-content: center;
