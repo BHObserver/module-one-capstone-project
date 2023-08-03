@@ -27,6 +27,12 @@
     gap: 40px;
   }
 
+  .empty {
+    margin-left: 160px;
+    width: 65px;
+    height: 65px;
+  }
+
   .nav-container {
     display: block;
     width: 100%;
@@ -43,7 +49,9 @@
   }
 
   .log-link-container {
-    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    width: 58%;
   }
 
   .nav-link-container {
@@ -83,7 +91,7 @@
 
   header .nav-bar img {
     display: flex;
-    margin-left: 130px;
+    margin-left: 160px;
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -201,3 +209,20 @@
     margin: 8px 0;
   }
 }
+
+
+@media screen and (min-width: 1024px) {
+  .log-link-container {
+      display: flex;
+      justify-content: space-around;
+      width: 62%;
+   }
+  }
+
+  @media screen and (min-width: 1440px) {
+  .log-link-container {
+      display: flex;
+      justify-content: space-around;
+      width: 52%;
+   }
+  }
