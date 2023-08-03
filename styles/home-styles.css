@@ -276,6 +276,10 @@ body {
   font-style: italic;
 }
 
+.performer-container .performer:nth-child(3), .performer:nth-child(4), .performer:nth-child(5), .performer:nth-child(6) {
+  display: none;
+} 
+
 .performer-intro {
   font-weight: normal;
   font-size: 12px;
