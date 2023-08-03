@@ -1,5 +1,6 @@
 @import url(./desktop-styles.css);
 @import url(./home-styles.css);
+
 body {
   background: none;
   margin: 0;
@@ -114,8 +115,6 @@ p {
   border-radius: 5%;
   box-shadow: 1px 1.5px 1.5px black;
 }
-
-
 
 .logo img {
   padding: 20px;
@@ -238,15 +237,9 @@ footer {
   width: 106.5%;
 }
 
-footer img {
-  padding: 20px;
-  width: 60px;
-  height: 60px;
-}
-
 .footer-container {
   display: flex;
-  justify-content: center;    
+  justify-content: center;
   align-items: center;
   background: #d3d3d3;
 }
@@ -267,15 +260,9 @@ footer img {
     margin-right: 50px;
   }
 
-  footer img {
-    padding: 20px;
-    width: 80px;
-    height: 80px;
-  }
-
   .footer-container {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
   }
 
@@ -286,6 +273,12 @@ footer img {
     width: 500px;
   }
 
+  footer img {
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+  }
+
   .logo {
     width: 45%;
   }
@@ -293,6 +286,4 @@ footer img {
   .prev-photos {
     margin-bottom: 40px;
   }
-
 }
-
