@@ -26,10 +26,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 Website about World Music Festival <a name="about-project"></a>
 
 
-**[Portfolio]** is a website that is used to showcase the projects and abilities.
+**Website about World Music Festival** is a website build to explore about World Music Fesitval which is  an upcoming event that will occur this year in september.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,13 +37,21 @@
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
+  <li>JS</li>
 </ul>
+
+### Key Features <a name="key-features"></a>
+
+- **Mobile First**
+- **Responsive**
+- **Navigation Bar**
+- **Contact Info**
 
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://bhobserver.github.io/projects/portfolio/index.html)
+- [Live Demo Link](https://bhobserver.github.io/projects/module-one-capstone-project/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +82,7 @@ Example commands:
 ```sh
   cd my-folder
 
-  git clone https://github.com/BHObserver/portfolio.git
+  git clone https://github.com/BHObserver/module-one-capstone-project.git
   
   cd Portfolio
 ```
