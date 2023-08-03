@@ -163,6 +163,22 @@
     margin-bottom: 10px;
   }
 
+  .performer-container .performer:nth-child(3) {
+    display: flex;
+  }
+  
+  .performer-container .performer:nth-child(4) {
+    display: flex;
+  }
+  
+  .performer-container .performer:nth-child(5) {
+    display: flex;
+  }
+  
+  .performer-container .performer:nth-child(6) {
+    display: flex;
+  }
+
   .more-btn-container {
     display: none;
   }
