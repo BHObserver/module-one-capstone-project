@@ -1,5 +1,5 @@
-@import url(./home-styles.css);
 @import url(./desktop-styles.css);
+@import url(./home-styles.css);
 body {
   background: none;
   margin: 0;
@@ -15,7 +15,7 @@ body {
   background-size: cover;
   align-items: center;
   color: #ec5242;
-  width: 96%;
+  width: 101%;
   margin: 0;
 }
 
@@ -159,7 +159,7 @@ p {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 35px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .prev-img-container {
@@ -202,7 +202,7 @@ p {
 }
 
 .sponsers-sect {
-  width: 96%;
+  width: 101%;
   background-color: #272a31;
   color: white;
   display: flex;
@@ -235,7 +235,7 @@ p {
 footer {
   display: flex;
   justify-content: space-evenly;
-  width: 101%;
+  width: 106.5%;
 }
 
 footer img {
