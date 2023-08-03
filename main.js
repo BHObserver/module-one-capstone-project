@@ -87,21 +87,21 @@ const perfomers = [
 perfomers.forEach((element) => {
   const performer = document.createElement('div');
   performer.classList.add('performer');
-  
+
   const imgContainer = document.createElement('div');
   imgContainer.classList.add('performer-photo-container');
   imgContainer.innerHTML = element.image;
   performer.appendChild(imgContainer);
-  
+
   const performerDetails = document.createElement('div');
   performerDetails.classList.add('performer-details');
   performer.appendChild(performerDetails);
-  
+
   const performerTitle = document.createElement('h3');
   performerTitle.classList.add('performer-name');
   performerTitle.innerHTML = element.name;
   performerDetails.appendChild(performerTitle);
-  
+
   const performerType = document.createElement('p');
   performerType.classList.add('performer-type');
   performerType.innerText = element.type;
